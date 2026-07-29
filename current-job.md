@@ -46,7 +46,7 @@ be told it's fine. Never call an image spec-compliant if it isn't.
 
 Maya is a 36-year-old woman who fronts legal-tech content for AgentX Labs, aimed at
 owners of retail law firms. We have **one usable photo** of her, so the Soul cannot be
-trained directly. The order is: Element from the photo → 12 portraits generated with
+trained directly. The order is: Element from the photo → 21 portraits generated with
 that Element → curate → train the Soul on the keepers.
 
 This is the reverse of Terry, who already had 28 training portraits.
@@ -74,7 +74,7 @@ it needs her proportions and not just her face. Report both Element IDs.
 Keep this Element permanently even after the Soul exists — Elements are what Seedance
 2.0 and Kling 3.0 accept for video. Soul does not do video.
 
-### Step 2 — Generate 12 bootstrap portraits
+### Step 2 — Generate 21 bootstrap portraits
 
 Model: **Nano Banana Pro (2K)** or **Nano Banana 2 (2K)**, with the Maya Element
 attached to every generation. Vertical or square, 2K.
@@ -111,7 +111,7 @@ twice. Do not soften it back.)*
 
 > smooth skin, airbrushed, retouched, beauty filter, poreless, flawless complexion, glamour lighting, heavy makeup
 
-**The 12 shot lines:**
+**Shot lines 1–12 — face coverage:**
 
 1. Head-and-shoulders headshot, facing the camera straight on, neutral expression, mouth closed, eyes to lens.
 2. Head-and-shoulders headshot, facing the camera straight on, warm composed closed-mouth smile with a faint crinkle at the outer eyes, eyes to lens.
