@@ -73,7 +73,7 @@ noted inline.
 
 ## Procedure
 
-1. **Model:** Nano Banana 2 (2K) or GPT Image 2 (2K). No Element attached to any of the
+1. **Model:** assigned per shot group — see **Generation settings** below. No Element attached to any of the
    21 — check your plan covers these models before starting a batch this size.
 2. **Generate 21 coverage shots, 3–4 variants each** (below). Cold — no reference image,
    no Element.
@@ -98,6 +98,68 @@ noted inline.
 7. **Report back:** Soul ID, Element ID, how many keepers and where they're stored,
    whether the roots are visibly intact across the set, and anything that showed a
    credit cost you weren't expecting.
+
+## Generation settings
+
+### Which model for which shot — do not scatter them
+
+Three models are used deliberately, assigned **by shot group**, not at random. Each model
+renders faces slightly differently, so scattering them across the set would average three
+faces together — which is exactly the drift we are trying to avoid on a character with no
+source photo.
+
+| Shots | Model | Why |
+|---|---|---|
+| **1–8, plus 9 and 13** (10 shots) | **Nano Banana Pro, 2K** | The identity core — front, three-quarters, profiles, chin up/down, hair back. These define the face. Best model, one model, no mixing. |
+| **11, 12, 14, 20, 21** (5 shots) | **GPT Image 2, 2K** | Lighting variants and the wardrobe alternates. Face is already established by the group above; these test that it survives different light and clothes. |
+| **10, 15, 16, 17, 18, 19** (6 shots) | **Nano Banana 2, 2K** | Body, proportion and hands. Framing is wider, so per-image face detail matters least here. |
+
+If any shot from the Nano Banana Pro group comes out inconsistent with the others,
+**regenerate it on Nano Banana Pro** — do not substitute a different model to get a
+result you like better. The identity group must stay single-model.
+
+### Everything else
+
+- **2K. Web app. No Reference Element attached** — there is nothing to attach yet; this
+  batch *creates* the source material the Element will later be built from.
+- Generate **3–4 variants of every one of the 21 shots**, not 2–3. With no photo anchoring
+  the face, drift across the batch is the main risk.
+
+### Lighting — vary the angle deliberately
+
+Do not let every shot default to the same flat frontal key. Across the set the light
+should come from genuinely different directions, because a Soul trained under one lighting
+condition renders badly the moment a scene lights the face differently.
+
+Where a shot line already specifies its lighting, use exactly that. Where it does not,
+rotate through these so the set covers all of them:
+
+| Angle | How to phrase it |
+|---|---|
+| Flat frontal | `flat soft frontal lighting, no visible shadow on the face` |
+| Side, camera-left | `hard directional light from camera-left, defined shadow down the right side of the face` |
+| Side, camera-right | `directional light from camera-right, soft shadow falling across the left of the face` |
+| Three-quarter / Rembrandt | `key light high and forty-five degrees to one side, a small triangle of light under the far eye` |
+| Backlit | `lit from behind by a bright window, face in soft even shadow, background blown out` |
+| Overhead | `light from directly above, shadow pooling slightly under the brows and nose` |
+
+**Lighting only — never change the background, wardrobe or expression to suit it.** One
+variable at a time. Changing two at once is where identity drift starts.
+
+### Consistency is the whole job
+
+The set exists to teach a model one face. Judge every single variant against the same
+question: **is this unmistakably the same person as the rest of the batch?**
+
+- Compare each new variant against the ones already kept, not against the prompt.
+- Reject on **bone structure** first — face width, jaw, brow, eye spacing, nose. Those are
+  identity. Hair, expression and lighting are not.
+- Reject anything that has drifted **younger, thinner, more symmetrical or more generic**.
+  Models pull toward an averaged attractive face; that pull is the enemy here.
+- A slightly awkward but accurate frame beats a flattering but drifted one, every time.
+- If more than a third of a shot's variants drift, **stop and say so** rather than keeping
+  the best of a bad batch. It means the identity string needs strengthening, and it is far
+  cheaper to fix that now than after the Soul is trained.
 
 ## The 21 coverage shots
 
