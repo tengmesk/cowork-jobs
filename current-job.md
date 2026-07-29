@@ -63,6 +63,12 @@ dark wavy hair, warm closed-mouth smile. There is a second file `headshot-office
 
 Create a **Reference Element** from it. Name it `Maya Miller — element`.
 
+**Note for later:** this first Element is bootstrapped from the one source photo, which
+is all we have right now. After Step 3, rebuild the Element from the curated keepers —
+Higgsfield accepts multiple images per Element, so give it a front-on chest-up with
+hands visible, a three-quarter, and a full-length. The Element is what video uses, so
+it needs her proportions and not just her face. Report both Element IDs.
+
 **Report the Element ID.** Everything downstream depends on it.
 
 Keep this Element permanently even after the Soul exists — Elements are what Seedance
@@ -73,8 +79,9 @@ Keep this Element permanently even after the Soul exists — Elements are what S
 Model: **Nano Banana Pro (2K)** or **Nano Banana 2 (2K)**, with the Maya Element
 attached to every generation. Vertical or square, 2K.
 
-Generate **2–3 variants of each** of the 12 shot lines below, then keep the single
-best of each.
+Generate **2–3 variants of each** of the 21 shot lines below, then keep the single
+best of each. Target **22–26 keepers** overall — the uploader accepts 80, but that
+ceiling is not a goal.
 
 **These are TRAINING images. Do not add any iPhone, handheld, grain, HDR or
 phone-camera language.** Training images must be clean, evenly lit and neutral so the
@@ -123,10 +130,36 @@ Shots **9 and 10** matter more than they look — the ponytail gives the model h
 jawline and hairline, the waist-up gives it her proportions. Shots **11 and 12** teach
 her face under opposite lighting so she survives varied scenes later.
 
+**Then these nine more.** Shots 1–12 are face coverage, which trains a Soul that makes
+good stills but weak *video*. Video goes wider than chest-up constantly, rotates the
+head, and animates gestures from the hands — none of which the first twelve teach.
+
+13. Head-and-shoulders headshot, straight on, neutral, hair tucked behind one ear so one ear is visible and the other is covered by falling waves.
+14. Head-and-shoulders headshot, straight on, neutral, lit from behind by a bright window so the face is in soft even shadow and the background blows out.
+15. Full-length shot, standing, facing the camera straight on, feet visible, arms relaxed at her sides, neutral expression. Black tailored blazer over an ivory silk shell, dark tailored trousers, plain court shoes.
+16. Full-length shot, standing, turned three-quarters to her left, weight on one hip, one hand at her side and one holding a closed laptop against her body.
+17. Seated on a plain stool, facing the camera, forearms resting on her thighs, hands loosely clasped and clearly visible, leaning very slightly forward.
+18. Waist-up, straight on, both hands raised to chest height mid-gesture as if explaining something, fingers relaxed and separated, palms angled inward.
+19. Waist-up, straight on, holding a plain white coffee cup in both hands at chest height, hands and fingers clearly visible.
+20. Head-and-shoulders headshot, straight on, neutral, wearing a camel fine-knit crew-neck instead of the blazer.
+21. Waist-up, straight on, neutral, wearing a plain white t-shirt under an open black blazer.
+
+**Shots 15–19 exist for video specifically.** 15 and 16 give the model her build,
+height and shoulder width so wide frames stop drifting. 17–19 put hands in the training
+set — Seedance animates gestures from the start frame, and hands it has never seen
+render as mush. 20 and 21 prove the face survives a wardrobe change.
+
+**Do not simply generate more to be safe.** A Soul trained on too much variety averages
+toward a generic face, and full-length shots carry far less facial information per image
+than a headshot. Keep the final set **face-dominant — roughly two thirds head-and-
+shoulders** — and vary angle and lighting while holding her identity and core wardrobe
+constant.
+
 ### Step 3 — Curate
 
-Keep the **10–12 best**, judged on one question only: *is this unmistakably the same
-woman as the source photo?*
+Keep **22–26**, judged on one question only: *is this unmistakably the same woman as
+the source photo?* Keep the balance face-dominant — about two thirds head-and-shoulders,
+the rest body and hands.
 
 Reject anything where the face has drifted younger, thinner, more generic, more
 European, or noticeably more symmetrical than the source. **Prefer variety of angle and
