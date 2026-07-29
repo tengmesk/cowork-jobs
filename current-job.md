@@ -4,7 +4,7 @@
 standing context that does not change. When told to "refresh", re-fetch this page —
 the CURRENT JOB section will have been replaced.
 
-Last updated: 2026-07-29 16:20 — **Maya is done. Tim, Lizzie and Rodrigo are queued.**
+Last updated: 2026-07-29 16:40 — Maya done. Tim, Lizzie and Rodrigo queued, with per-shot model assignment and lighting direction.
 
 ---
 
@@ -60,6 +60,30 @@ report back, then return here and start the next.
 | 1 | **Tim Tanner** | https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-tim-tanner.md |
 | 2 | **Lizzie Larsen** | https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-lizzie-larsen.md |
 | 3 | **Rodrigo Maxwell** | https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-rodrigo-maxwell.md |
+
+### Updated 16:40 — three things changed in every brief
+
+**1. Models are now assigned per shot group, not chosen freely.** Ten shots on Nano
+Banana Pro, five on GPT Image 2, six on Nano Banana 2. The split is deliberate: the ten
+identity-carrying face shots all come from **one** model, because each model renders
+faces slightly differently and scattering them would average three faces into one
+character. Model variety lands on the lighting, wardrobe and body shots, where per-image
+face detail matters least. If an identity shot comes out inconsistent, regenerate it on
+the **same** model — never substitute another to get a nicer result.
+
+**2. Lighting angle must vary across the set.** Flat frontal, hard side from each
+direction, three-quarter, backlit, overhead. A Soul trained under one lighting condition
+falls apart the moment a scene lights the face differently. Each brief carries the exact
+phrasings. **Change lighting only** — never the background, wardrobe or expression at the
+same time. One variable at a time is how identity stays intact.
+
+**3. The consistency bar is explicit.** Judge every variant against the batch, not the
+prompt: *is this unmistakably the same person as the ones already kept?* Reject on bone
+structure first — face width, jaw, brow, eye spacing, nose. Hair, expression and lighting
+are not identity. Models pull toward an averaged attractive face; that pull is the enemy.
+**If more than a third of a shot's variants drift, stop and say so** rather than keeping
+the best of a bad batch — it means the identity string needs work, and that is far
+cheaper to fix now than after a Soul is trained on it.
 
 ### What is different about these three, versus Maya
 
