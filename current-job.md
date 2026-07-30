@@ -4,7 +4,7 @@
 standing context that does not change. When told to "refresh", re-fetch this page —
 the CURRENT JOB section will have been replaced.
 
-Last updated: 2026-07-29 16:40 — Maya done. Tim, Lizzie and Rodrigo queued, with per-shot model assignment and lighting direction.
+Last updated: 2026-07-30 — **Tim is DONE. Lizzie is next, and her look was respecified.**
 
 ---
 
@@ -16,123 +16,107 @@ tmmeskhi@gmail.com (Pro plan, workspace "Private").
 **Billing.** This account holds **Unlimited passes that expire 2026-08-04**, applying
 **only inside the web app** — never via API or CLI. If anything shows a credit cost
 instead of "Unlimited", **stop and say so before proceeding**. Character/Soul *training*
-may cost credits even when generation is unlimited — that is expected, but report the
-number before you start it.
+may cost credits even when generation is unlimited — **report the number and wait for the
+owner's go-ahead before starting a training run.**
 
 **You cannot reach the local filesystem.** Steps needing a file are marked **[YOU]** —
 click Upload to open the native dialog and let the human pick the file.
 
-**Attaching a character.** In the web app you attach a reference by typing **`@Name`**
-in the prompt box. The `<<<uuid>>>` form is API syntax and does nothing in the browser.
+**Attaching a character.** In the web app you attach a reference by typing **`@Name`** in
+the prompt box. The `<<<uuid>>>` form is API syntax and does nothing in the browser. The
+name must match the Element name **exactly**.
 
-**Element naming matters.** Name each Element exactly as the persona is named —
-`Tim Tanner`, not `Tim Tanner — element`. The Element name and the `@` reference have to
-match, and a suffix breaks the mention.
+**Reporting.** Be blunt and critical. We would rather hear that something looks wrong than
+be told it is fine. Never call an image spec-compliant if it isn't.
 
-**Reporting.** Be blunt and critical. We would rather hear that something looks wrong
-than be told it is fine. Never call an image spec-compliant if it isn't.
+### Already built — do NOT rebuild any of these
 
-### Characters already built — do not rebuild
-
-| Character | Asset | ID |
+| Character | Soul (stills only) | Element for video — use this exact @name |
 |---|---|---|
-| Terry Sterling | Soul (stills only) | `b45b1df9-ca52-4580-89c3-caa756cfe7a7` |
-| Terry Sterling | Element (video) | `883ccefd-6b8e-4edf-a048-9d24fa2f1067` |
-| Maya Miller | Soul + Element | done 2026-07-29 |
+| **Terry Sterling** | `b45b1df9-ca52-4580-89c3-caa756cfe7a7` | **`@Terry Sterling`** |
+| **Maya Miller** | `f2f47ddc-7308-4470-8e76-6e8c2b2fd6cd` | **`@Maya-Miller-v2`** |
+| **Tim Tanner** | `ab2e0383-bad0-418f-9a85-a1c0a0998c9a` | **`@Tim Tanner-1`** |
+
+Also live: **`@Shoe-Dog-Cover`** — a prop Element of the Shoe Dog book cover.
 
 Soul never works with video. Seedance 2.0 and Kling 3.0 take the Element.
+
+**Duplicate Elements exist and the right one is not obvious** — there are older
+`Maya Miller`, `Maya-Miller-—-element`, `Terry-Sterling-—-element` and `Tim Tanner`
+Elements on the account. **Use only the three @names in the table above.** Do not create
+any more Elements for these three characters.
 
 ---
 
 # CURRENT JOB
 
-## Build the three remaining characters — Tim, Lizzie, Rodrigo
+## Build Lizzie Larsen
 
-Maya is finished. These three are next. **Do them one at a time, in this order**, and
-report after each before starting the next.
+**Her brief:** https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-lizzie-larsen.md
 
-Each has its own full brief on a separate page — identity string, all 21 shot lines,
-curation criteria, Soul training and Element build. Fetch the page, do what it says,
-report back, then return here and start the next.
+> ### Her look was respecified on 2026-07-30 — read this first
+>
+> If you fetched her brief before 2026-07-30, **discard it.** The old spec described
+> dark-blonde hair with visibly grown-out roots, faint freckles and deliberately unstyled
+> clothes. That is superseded.
+>
+> She is now **bright Scandi-blonde, sleek shoulder-length, polished and premium-styled** —
+> high-end Scandinavian minimalist. Use only the identity string in the brief.
 
-| Order | Character | Brief |
-|---|---|---|
-| 1 | **Tim Tanner** | https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-tim-tanner.md |
-| 2 | **Lizzie Larsen** | https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-lizzie-larsen.md |
-| 3 | **Rodrigo Maxwell** | https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-rodrigo-maxwell.md |
+### Before you start generating
 
-### Updated 16:40 — three things changed in every brief
+**Report the Soul training cost and wait for the owner's confirmation before starting the
+training run.** Generating the coverage images is unlimited; training may not be. Do not
+start a training run on your own initiative.
 
-**1. Models are now assigned per shot group, not chosen freely.** Ten shots on Nano
-Banana Pro, five on GPT Image 2, six on Nano Banana 2. The split is deliberate: the ten
-identity-carrying face shots all come from **one** model, because each model renders
-faces slightly differently and scattering them would average three faces into one
-character. Model variety lands on the lighting, wardrobe and body shots, where per-image
-face detail matters least. If an identity shot comes out inconsistent, regenerate it on
-the **same** model — never substitute another to get a nicer result.
+### What is different about Lizzie versus Maya and Tim
 
-**2. Lighting angle must vary across the set.** Flat frontal, hard side from each
-direction, three-quarter, backlit, overhead. A Soul trained under one lighting condition
-falls apart the moment a scene lights the face differently. Each brief carries the exact
-phrasings. **Change lighting only** — never the background, wardrobe or expression at the
-same time. One variable at a time is how identity stays intact.
+**She is fully synthetic — there is no source photo.** Maya had a headshot, so her Element
+came first and seeded her training batch. Lizzie has nothing to seed from; the written
+identity string *is* the source.
 
-**3. The consistency bar is explicit.** Judge every variant against the batch, not the
-prompt: *is this unmistakably the same person as the ones already kept?* Reject on bone
-structure first — face width, jaw, brow, eye spacing, nose. Hair, expression and lighting
-are not identity. Models pull toward an averaged attractive face; that pull is the enemy.
-**If more than a third of a shot's variants drift, stop and say so** rather than keeping
-the best of a bad batch — it means the identity string needs work, and that is far
-cheaper to fix now than after a Soul is trained on it.
+1. **Generate the 21 coverage shots cold, with no Element attached.** There is nothing to
+   attach yet — this batch is what creates the character.
+2. **Budget 3–4 variants per shot, not 2–3.** With nothing anchoring the face, drift across
+   the batch is the main failure mode.
+3. **Curate for internal consistency.** The question is not "is this like the source photo"
+   — there isn't one. It is **"is every one of these the same woman?"**
 
-### What is different about these three, versus Maya
+Then train the Soul on 22–26 face-dominant keepers, and build the Element from the keepers
+afterwards. **Name the Element exactly `Lizzie Larsen`** — no suffix, so `@Lizzie Larsen`
+works.
 
-**All three are fully synthetic. There is no source photo for any of them.** Maya had a
-headshot, so her Element came first and seeded her training batch. These have nothing to
-seed from — the written identity string *is* the source.
+### The trap specific to Lizzie
 
-That changes the procedure in three ways, and each brief repeats them:
+**Her training images stay clean, evenly lit and neutral — even though her content will be
+deliberately scrappy.** Her whole premise is unpolished, which makes it tempting to train
+her on gritty phone-style images. Do not. Phone realism is applied later, at generation
+time. Inverting this bakes grain into her identity permanently.
 
-1. **Generate the 21 coverage shots cold, with no Element attached.** There is nothing
-   to attach yet; this batch is what creates the character.
-2. **Budget 3–4 variants per shot, not 2–3.** With nothing anchoring the face, drift
-   across the batch is the main failure mode — expect to discard more.
-3. **Curate hard for internal consistency.** The question is not "is this like the
-   source photo" — there is no source photo. It is **"is every one of these the same
-   person?"** Reject anything that has drifted in age, weight or bone structure.
+**And the skin, which is subtle.** Her look calls for "flawless glowing skin" while the
+house rule is unretouched skin with visible pores. These are not opposed:
 
-Then train the Soul on 22–26 face-dominant keepers, and build the Element from the
-keepers afterwards.
+- **Glowing** is a *lighting* quality — dewy, healthy, light catching the cheekbones.
+- **Retouched** is an *absence of texture* — no pores, no fine lines.
 
-### Two character-specific traps, easy to miss
+Ask for both. **Reject any frame where the skin has gone poreless**, however flattering it
+looks — the Soul would learn a plastic face permanently.
 
-**Tim Tanner — the pipe, and his weight.** A pipe is his signature prop but it covers
-his mouth, and a Soul trained on an obscured mouth renders mouths badly ever after. **No
-pipe anywhere in his training set** — it appears in content only. Separately, the model
-tends to slim heavy-set body types between shots: **reject any frame where he has lost
-weight.** And his defining trait is a warm, open smile — if the set comes back stern,
-the character has failed even if the bone structure is right.
-
-**Lizzie Larsen — clean training images, even though her content is scrappy.** Her whole
-premise is unpolished, which makes it tempting to train her on gritty phone-style images.
-Do not. Training stays clean, evenly lit and neutral; phone realism is applied later at
-generation time. Inverting this bakes the grain into her identity permanently. Also her
-**grown-out roots are deliberate** — they are what stops her reading as a polished brand
-asset. Do not let a prompt tidy them away.
-
-### Report after each character
+### Report when done
 
 1. The **Soul ID** and the **Element ID**
 2. How many shots you generated, how many you kept, what you rejected them for
-3. Whether the kept set genuinely looks like **one consistent person** — be blunt
+3. Whether the kept set genuinely looks like **one consistent woman** — be blunt
 4. Whether the skin came out unretouched or still smoothed
 5. Anything that showed a credit cost rather than Unlimited
 
-Then stop and wait before starting the next character.
+Then stop and wait.
 
 ---
 
 ## QUEUED — not now
 
-**Terry: three daylight start frames**, regenerated with hardened skin and background
-wording. Will be restored to CURRENT JOB once these three characters exist.
+1. **Rodrigo Maxwell** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-rodrigo-maxwell.md
+   Same synthetic route as Lizzie. Do not start until Lizzie is reported and approved.
+2. **Terry: three daylight start frames**, regenerated with hardened skin and background
+   wording.
