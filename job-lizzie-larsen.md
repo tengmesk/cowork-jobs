@@ -1,24 +1,32 @@
 # Job — build the Lizzie Larsen character
 
-> **IDENTITY STRING CHANGED 2026-07-30 — this affects ALL 21 shots, not just 15–21.**
+> **START OVER — regenerate all 21 shots from scratch.**
 >
-> Her brows and makeup were respecified from a reference image. Two changes:
+> Her look was respecified on 2026-07-30 and the owner has decided to retake the whole
+> set. **Discard everything you generated for Lizzie before this notice**, including
+> shots 1–14. Do not curate or keep any of it. Begin again at shot 1 using only the text
+> below.
+>
+> What changed, so you know what to look for:
 >
 > - **Brows: full taupe-brown, brushed up and out, noticeably darker than her hair.**
->   Previously written as 'light blonde' — that was wrong. This is the single strongest
->   feature of the reference and the one most likely to drift back to pale. **Reject any
->   frame where the brows have gone light.**
-> - **Makeup: soft-glam 'clean girl', not no-makeup.** Black mascara on separated upper
->   and lower lashes, no eyeliner, warm taupe crease shading, dewy skin with visible
->   pores, peachy-rose blush high on the cheekbones, glossy warm terracotta-rose lips.
+>   Previously written as "light blonde" — that was wrong. This is the strongest feature
+>   of the reference and the one most likely to drift back toward pale. **Reject any frame
+>   where the brows have gone light.**
+> - **Makeup: soft-glam "clean girl", not no-makeup.** Black mascara on separated upper and
+>   lower lashes, no eyeliner, warm taupe crease shading, dewy skin with visible pores,
+>   peachy-rose blush high on the cheekbones, glossy warm terracotta-rose lips.
+> - **Hair: bright Scandi-blonde, sleek, shoulder-length.**
+> - **Signature garment: a fitted white strappy top** in every shot with a top (15, 17, 18,
+>   19, 20). Shots 16 and 21 are bodycon dresses. Shot 20 wears a tailored oat linen shirt
+>   open *over* the strappy top.
+> - **Figure: accentuated hourglass, NARROW waist, curved wide hips**, clothes following
+>   that line cleanly, décolletage visible.
+> - **Posing on the body shots:** contrapposto or three-quarter turns, one low-angle
+>   medium-full shot.
 >
-> **Anything you generated before this notice used the old brows and makeup.** Ask the
-> owner whether to regenerate those shots or keep them before continuing.
->
-> Also current, from earlier the same day: bright Scandi-blonde sleek hair; a fitted
-> white strappy top as the signature in every shot with a top (15, 17, 18, 19, 20);
-> bodycon dresses in 16 and 21; accentuated hourglass, NARROW waist, curved wide hips,
-> décolletage visible; contrapposto and three-quarter turns.
+> Everything else about the procedure is unchanged: generate cold with no Element attached,
+> 3–4 variants per shot, then curate 22–26 face-dominant keepers before training.
 
 ---
 name: Lizzie Larsen — Higgsfield Prompt Pack
