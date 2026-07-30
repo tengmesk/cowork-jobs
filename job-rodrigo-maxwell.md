@@ -1,5 +1,16 @@
 # Job — build the Rodrigo Maxwell character
 
+> ### Before you start generating
+>
+> **Report the Soul training cost and wait for the owner's confirmation before starting the
+> training run.** Generating the 21 coverage shots is unlimited; training may not be. Do
+> not start a training run on your own initiative.
+>
+> **Name the Element exactly `Rodrigo Maxwell`** — no suffix, no version number — so that
+> `@Rodrigo Maxwell` resolves. His 40-clip b-roll job depends on that exact name and cannot
+> run without it.
+
+
 ---
 name: Rodrigo Maxwell — Higgsfield Prompt Pack
 description: Paste-ready character-creation job (21 cold coverage shots, no Element) plus 40 Element-driven b-roll prompts for Seedance 2.0
@@ -252,4 +263,19 @@ A 28-year-old Latino man. Warm mid-brown skin with a neutral undertone. Square j
 
 ---
 
-##
+---
+
+## When Part 1 is done — report back and stop
+
+1. The **Soul ID** and the **Element ID**, plus the exact Element name you used
+2. How many shots you generated, how many you kept, and what you rejected them for
+3. Whether the kept set genuinely looks like **one consistent man** — be blunt. We would
+   rather retake the batch than train a Soul on a face that wanders.
+4. Whether the skin came out unretouched with visible pores, or still smoothed
+5. Whether the **silver hoop stayed in his left ear** across the set — it is one of the few
+   hard identity anchors he has, and it moves ears or disappears if the model is drifting
+6. Anything that showed a credit cost rather than Unlimited
+
+Then stop and wait. **Do not start his b-roll job** — it needs the owner to approve the
+keepers first, and it is a separate page:
+https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-rodrigo-broll.md

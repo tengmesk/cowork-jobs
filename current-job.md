@@ -4,8 +4,8 @@
 standing context that does not change. When told to "refresh", re-fetch this page —
 the CURRENT JOB section will have been replaced.
 
-Last updated: 2026-07-30 — Tim DONE. Lizzie is CURRENT. Her 30 b-roll clips are queued
-directly behind her and unlock the moment her Element exists.
+Last updated: 2026-07-30 — Tim DONE. Lizzie is CURRENT. Both Lizzie's and Rodrigo's b-roll
+jobs are now written and queued; each unlocks the moment its own Element exists.
 
 ---
 
@@ -130,8 +130,14 @@ Then stop and wait.
    **One image, not a video.** Three variants of a reusable style anchor for the faceless
    explainer channel. Cheap, fast, and it unblocks a whole content format — do this
    straight after Lizzie if the owner says so. Uses **Nano Banana Pro at 9:16**, not Omni.
-3. **Rodrigo Maxwell** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-rodrigo-maxwell.md
-   Same synthetic route as Lizzie. Do not start until Lizzie is reported and approved.
+3. **Rodrigo Maxwell — the character** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-rodrigo-maxwell.md
+   Same synthetic route as Lizzie: 21 shots cold, no Element, 3–4 variants each, curate to
+   22–26 keepers, then train. **Name his Element exactly `Rodrigo Maxwell`.** Do not start
+   until Lizzie is reported and approved.
+4. **Rodrigo's b-roll — 40 clips** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-rodrigo-broll.md
+   Seedance 2.0, **14s each, 9:16, 1080p, silent.** 10 at the desk with analytics, 10
+   coworking/studio, 10 city/transit, 10 off-duty. **Blocked until his Element exists.**
+   Four pilot clips first, then a stop for review.
 4. **Terry: three daylight start frames**, regenerated with hardened skin and background
    wording.
 
