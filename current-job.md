@@ -138,7 +138,7 @@ Then stop and wait.
    Seedance 2.0, **14s each, 9:16, 1080p, silent.** 10 at the desk with analytics, 10
    coworking/studio, 10 city/transit, 10 off-duty. **Blocked until his Element exists.**
    Four pilot clips first, then a stop for review.
-4. **Terry: three daylight start frames**, regenerated with hardened skin and background
+5. **Terry: three daylight start frames**, regenerated with hardened skin and background
    wording.
 
 ### Coming after the style sheet is approved — do not start it yet
