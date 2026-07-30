@@ -63,22 +63,23 @@ Lizzie has **no source photo**. The identity string below *is* the source. That 
 
 ### The trap this brief exists to prevent
 
-Lizzie's entire on-screen premise is "unpolished, real, slightly scrappy." It is
-extremely tempting to bake that into the *training* images — add a bit of handheld
-grain, an off-centre frame, a phone-camera look, because "that's her vibe." **Do not.**
-Training images are always clean, evenly lit, neutral, and studio-flat, regardless of
-whose face they're teaching. Phone realism, mess, bad lighting — all of that is applied
-at *generation* time, on real content, once the Soul already exists. Train on scrappy
-images and the model learns the grain instead of the face, permanently. This is the
-single most expensive mistake available on this persona specifically, because the
-scrappy premise makes it feel correct to do the wrong thing.
+**Her subject is polished; her camera is not.** Everything she posts is shot to look like
+a real phone snapshot — handheld, natural light, unposed framing. It is tempting to bake
+that into the *training* images, because "that's her vibe." **Do not.** Training images
+are always clean, evenly lit, neutral and studio-flat, regardless of whose face they are
+teaching. Phone realism is applied later, at generation time, once the Soul exists. Train
+on grainy handheld images and the model learns the grain instead of the face, permanently.
 
-Second trap: her **a healthy subtle shine are load-bearing**. They are the one visual detail
-that stops her reading as a polished brand asset instead of a real small creator. The
-identity string mentions them in every single prompt for exactly this reason — do not
-let a lighting note, a hair-back shot, or a "clean up her hair" instinct tidy them away.
-If a generated image looks polished enough that the roots have vanished or blended in,
-reject it, even if the face is otherwise good.
+**Second trap — the brows.** Full taupe-brown brows, brushed up and out, **noticeably
+darker than her hair**, are the strongest feature of the reference and the one most likely
+to drift. A model asked for Scandi-blonde hair will happily give her pale blonde brows.
+**Reject any frame where the brows have gone light**, even if the face is otherwise good.
+
+**Third trap — the skin.** Her look calls for dewy, glowing skin while the house rule is
+unretouched skin with visible pores. These are not opposed: *glowing* is a lighting and
+moisture quality; *retouched* is an absence of texture. Ask for both, and **reject any
+frame that has gone poreless**, however flattering it looks — the Soul would learn a
+plastic face permanently.
 
 ## The identity string — byte-identical in every prompt below
 
@@ -87,8 +88,8 @@ A 29-year-old white woman with a striking, model-esque facial structure — a he
 ```
 
 Never paraphrase it. It only changes in shots 9 and 13 below, where the *hair clause
-specifically* is swapped for a variant that still names the a healthy subtle shine — everything
-else in the string stays identical.
+specifically* is swapped for a different hairstyle — everything else in the string,
+including the brow clause, stays identical.
 
 ## The tail — shared, verbatim
 
@@ -108,7 +109,8 @@ noted inline.
 3. **Curate to 22–26 keepers.** Face-dominant — roughly two-thirds should be
    head-and-shoulders, the rest for proportion and hands. Reject anything that has
    drifted younger, thinner, more generic, or more symmetrical than the rest of the
-   set, and reject anything where the roots have been smoothed away. See
+   set, anything where the brows have gone light, and anything where the skin has gone
+   poreless. See
    `../maya-miller/character-sheet.md` → **Coverage** section for the full reasoning on
    why 21 shots (not the smaller 12) and why face-only coverage under-serves video —
    proportions, hands, head turns, hair in motion, and wardrobe-as-identity all need
@@ -120,12 +122,12 @@ noted inline.
    carries proportions as well as face. Report the Element ID.
 6. **Validate with 2–3 test generations** using the trained Soul, 9:16, 2K. This is
    where phone realism is *finally* allowed — apply it now, not before. A quick sanity
-   prompt: waist-up, Lizzie at a cluttered desk on a laptop, shot on an iPhone with
-   handheld shake, natural window light, hair pushed back with the roots visible. Check
-   the roots survived and the wardrobe reads as unstyled, not aspirational.
+   prompt: waist-up, Lizzie at a pale wood desk on a laptop, shot on an iPhone with
+   handheld shake, natural window light. Check the brows stayed dark, the skin kept its
+   pores, and the capture reads as a snapshot rather than a studio shoot.
 7. **Report back:** Soul ID, Element ID, how many keepers and where they're stored,
-   whether the roots are visibly intact across the set, and anything that showed a
-   credit cost you weren't expecting.
+   whether the brows stayed dark across the whole set, whether the skin stayed
+   unretouched, and anything that showed a credit cost you weren't expecting.
 
 ## The 21 coverage shots
 
@@ -174,8 +176,8 @@ A 29-year-old white woman with a striking, model-esque facial structure — a he
 A 29-year-old white woman with a striking, model-esque facial structure — a heart-shaped face with high cheekbones and a light warm complexion. Wide-set green-hazel eyes, full taupe-brown brows with a soft arch, brushed up and out and noticeably darker than her hair, and a small upturned nose. A wide mouth with a natural, symmetrical shape. Bright Scandi-blonde hair in a sleek shoulder-length cut with a healthy, subtle shine. Soft-glam "clean girl" makeup: black mascara on long, separated upper and lower lashes with no eyeliner; warm taupe shading blended softly through the crease and under the lower lash line; dewy luminous skin with visible pores and natural texture, highlighted on the cheekbones, brow bone and bridge of the nose; warm peachy-rose blush placed high on the cheekbones and drifting lightly across the nose bridge; full lips in a glossy warm terracotta-rose. Small, elegant gold stud earrings. Head-and-shoulders headshot, chin slightly raised, confident and composed, mouth closed, eyes to lens. Clean neutral studio lighting, plain mid-grey seamless background, sharp focus on the face, realistic skin texture with visible pores and natural shine, no retouching, no beauty filter. No text, no logos, no watermark.
 ```
 
-**C · Hair states (9, 13)** — note the identity string's hair clause changes here, and
-still names the roots.
+**C · Hair states (9, 13)** — only the identity string's *hair clause* changes here. The
+brow clause stays exactly as written.
 
 ```
 9 — Hair back (jawline + hairline)
@@ -242,7 +244,7 @@ A 29-year-old white woman with a striking, model-esque facial structure — a he
 **G · Wardrobe alternate (20, 21)** — proves the face survives an outfit change.
 
 ```
-20 — Open flannel over tee
+20 — Open linen shirt over the tank top
 A 29-year-old white woman with a striking, model-esque facial structure — a heart-shaped face with high cheekbones and a light warm complexion. Wide-set green-hazel eyes, full taupe-brown brows with a soft arch, brushed up and out and noticeably darker than her hair, and a small upturned nose. A wide mouth with a natural, symmetrical shape. Bright Scandi-blonde hair in a sleek shoulder-length cut with a healthy, subtle shine. Soft-glam "clean girl" makeup: black mascara on long, separated upper and lower lashes with no eyeliner; warm taupe shading blended softly through the crease and under the lower lash line; dewy luminous skin with visible pores and natural texture, highlighted on the cheekbones, brow bone and bridge of the nose; warm peachy-rose blush placed high on the cheekbones and drifting lightly across the nose bridge; full lips in a glossy warm terracotta-rose. Small, elegant gold stud earrings. Head-and-shoulders headshot, straight on, neutral expression, wearing a fitted white strappy tank top under a tailored oat linen shirt worn fully open with the sleeves rolled, collarbones and décolletage clearly visible. Clean neutral studio lighting, plain mid-grey seamless background, sharp focus on the face, realistic skin texture with visible pores and natural shine, no retouching, no beauty filter. No text, no logos, no watermark.
 ```
 

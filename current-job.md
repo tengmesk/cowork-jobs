@@ -4,7 +4,8 @@
 standing context that does not change. When told to "refresh", re-fetch this page —
 the CURRENT JOB section will have been replaced.
 
-Last updated: 2026-07-30 — Tim DONE. Lizzie is CURRENT. Vox style sheet queued behind her.
+Last updated: 2026-07-30 — Tim DONE. Lizzie is CURRENT. Her 30 b-roll clips are queued
+directly behind her and unlock the moment her Element exists.
 
 ---
 
@@ -88,10 +89,14 @@ works.
 
 ### The trap specific to Lizzie
 
-**Her training images stay clean, evenly lit and neutral — even though her content will be
-deliberately scrappy.** Her whole premise is unpolished, which makes it tempting to train
-her on gritty phone-style images. Do not. Phone realism is applied later, at generation
-time. Inverting this bakes grain into her identity permanently.
+**Her training images stay clean, evenly lit and neutral — even though her content is shot
+to look like a phone snapshot.** Her subject is polished and her camera is not, which makes
+it tempting to train her on gritty handheld images. Do not. Phone realism is applied later,
+at generation time. Inverting this bakes grain into her identity permanently.
+
+**And the brows.** Full taupe-brown, brushed up and out, **noticeably darker than her
+hair** — the strongest feature of the reference and the one most likely to drift back
+toward pale blonde. **Reject any frame where the brows have gone light.**
 
 **And the skin, which is subtle.** Her look calls for "flawless glowing skin" while the
 house rule is unretouched skin with visible pores. These are not opposed:
@@ -116,13 +121,18 @@ Then stop and wait.
 
 ## QUEUED — not now
 
-1. **Vox collage style sheet** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-vox-style-sheet.md
+1. **Lizzie's b-roll — 30 clips** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-lizzie-broll.md
+   Seedance 2.0, **14s each, 9:16, 1080p, silent.** 7 poolside, 13 in her apartment, 10
+   around Miami. **Blocked until her Element exists** and the owner has approved her
+   keepers — it attaches `@Lizzie Larsen`, so it cannot start a moment earlier. The job
+   asks for three pilot clips first, then a stop for review.
+2. **Vox collage style sheet** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-vox-style-sheet.md
    **One image, not a video.** Three variants of a reusable style anchor for the faceless
    explainer channel. Cheap, fast, and it unblocks a whole content format — do this
    straight after Lizzie if the owner says so. Uses **Nano Banana Pro at 9:16**, not Omni.
-2. **Rodrigo Maxwell** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-rodrigo-maxwell.md
+3. **Rodrigo Maxwell** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-rodrigo-maxwell.md
    Same synthetic route as Lizzie. Do not start until Lizzie is reported and approved.
-3. **Terry: three daylight start frames**, regenerated with hardened skin and background
+4. **Terry: three daylight start frames**, regenerated with hardened skin and background
    wording.
 
 ### Coming after the style sheet is approved — do not start it yet
