@@ -19,7 +19,7 @@
 > - **Hair: bright Scandi-blonde, sleek, shoulder-length.**
 > - **Signature garment: a fitted white strappy tank top** in every shot with a top (15, 17, 18,
 >   19, 20). Shots 16 and 21 are bodycon dresses. Shot 20 wears a tailored oat linen shirt
->   open *over* the strappy top.
+>   open *over* the strappy tank top.
 > - **Figure: accentuated hourglass, NARROW waist, curved wide hips**, clothes following
 >   that line cleanly, décolletage visible.
 > - **Posing on the body shots:** contrapposto or three-quarter turns, one low-angle
