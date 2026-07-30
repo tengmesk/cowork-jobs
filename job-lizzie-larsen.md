@@ -27,6 +27,13 @@ type: project
 status: not started
 ---
 
+---
+name: Lizzie Larsen — Higgsfield Prompt Pack
+description: Character-creation job (cold synthetic build, no source photo) + 40 ambient b-roll prompts
+type: project
+status: not started
+---
+
 # Lizzie Larsen — Higgsfield Prompt Pack
 
 Two parts. **Part 1** builds the character from nothing — she's fully synthetic, no
