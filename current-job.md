@@ -4,7 +4,7 @@
 standing context that does not change. When told to "refresh", re-fetch this page —
 the CURRENT JOB section will have been replaced.
 
-Last updated: 2026-07-30 — **Tim is DONE. Lizzie is next, and her look was respecified.**
+Last updated: 2026-07-30 — Tim DONE. Lizzie is CURRENT. Vox style sheet queued behind her.
 
 ---
 
@@ -116,7 +116,25 @@ Then stop and wait.
 
 ## QUEUED — not now
 
-1. **Rodrigo Maxwell** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-rodrigo-maxwell.md
+1. **Vox collage style sheet** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-vox-style-sheet.md
+   **One image, not a video.** Three variants of a reusable style anchor for the faceless
+   explainer channel. Cheap, fast, and it unblocks a whole content format — do this
+   straight after Lizzie if the owner says so. Uses **Nano Banana Pro at 16:9**, not Omni.
+2. **Rodrigo Maxwell** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-rodrigo-maxwell.md
    Same synthetic route as Lizzie. Do not start until Lizzie is reported and approved.
-2. **Terry: three daylight start frames**, regenerated with hardened skin and background
+3. **Terry: three daylight start frames**, regenerated with hardened skin and background
    wording.
+
+### Coming after the style sheet is approved — do not start it yet
+
+**The AI-productivity explainer** — 11 beats, 48s, 16:9, **Google Omni Flash** (unlimited,
+10s max per clip). Nine beats generate on Omni; two are built outside Higgsfield because
+they carry real statistics, which Omni renders convincingly wrong.
+
+It is blocked on two things that are not yours to do:
+
+- the **research gate** — every figure in the script is still a placeholder and must be
+  replaced with a sourced number
+- the **voiceover**, which sets the exact beat timings
+
+Do not begin it until a job page appears for it here.
