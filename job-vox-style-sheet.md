@@ -11,7 +11,7 @@ until this exists and has been approved.
 | Control | Set to |
 |---|---|
 | Model | **Nano Banana Pro (2K)** — or GPT Image 2 (2K) if Nano Banana Pro is unavailable |
-| Aspect | **16:9 landscape** |
+| Aspect | **9:16 vertical** |
 | Unlimited mode | **On** |
 
 Confirm it reads "Unlimited" before generating. If it shows a credit cost, stop and say so.
@@ -21,7 +21,7 @@ Confirm it reads "Unlimited" before generating. If it shows a credit cost, stop 
 Paste verbatim. Generate three, then report all three back — the owner picks one.
 
 ```
-A single flat reference board for an editorial collage motion-graphics system, photographed straight-on in flat even light, laid out on aged newsprint, wide 16:9 composition.
+A single flat reference board for an editorial collage motion-graphics system, photographed straight-on in flat even light, laid out on aged newsprint, vertical 9:16 composition.
 
 The board contains, overlapping and slightly askew: two black-and-white archive photographs of 1970s office workers, scissor-cut with visible paper edges and soft drop shadows; a solid black rectangular censor bar laid across the eyes of one of them; a strip of heavy condensed all-caps display lettering in deep charcoal, cropped by the edge of the board, letters illegible; a hand-drawn red circle and a red arrow, drawn slightly unevenly as if with a marker; an enlarged halftone dot pattern in one corner; three small tan paper label strips; a solid black redaction block over a line of text; a piece of masking tape holding one photograph down; a swatch of dusty blue-grey paper and a swatch of aged tan paper.
 

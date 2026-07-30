@@ -119,7 +119,7 @@ Then stop and wait.
 1. **Vox collage style sheet** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-vox-style-sheet.md
    **One image, not a video.** Three variants of a reusable style anchor for the faceless
    explainer channel. Cheap, fast, and it unblocks a whole content format — do this
-   straight after Lizzie if the owner says so. Uses **Nano Banana Pro at 16:9**, not Omni.
+   straight after Lizzie if the owner says so. Uses **Nano Banana Pro at 9:16**, not Omni.
 2. **Rodrigo Maxwell** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-rodrigo-maxwell.md
    Same synthetic route as Lizzie. Do not start until Lizzie is reported and approved.
 3. **Terry: three daylight start frames**, regenerated with hardened skin and background
@@ -127,8 +127,8 @@ Then stop and wait.
 
 ### Coming after the style sheet is approved — do not start it yet
 
-**The AI-productivity explainer** — 11 beats, 48s, 16:9, **Google Omni Flash** (unlimited,
-10s max per clip). Nine beats generate on Omni; two are built outside Higgsfield because
+**The AI-productivity explainer** — 11 beats, 48s, **9:16 vertical**, **Google Omni Flash**
+(unlimited, 10s max per clip; it also does 16:9 if a YouTube recut is wanted later). Nine beats generate on Omni; two are built outside Higgsfield because
 they carry real statistics, which Omni renders convincingly wrong.
 
 It is blocked on two things that are not yours to do:
