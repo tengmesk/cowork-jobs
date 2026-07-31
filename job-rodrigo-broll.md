@@ -67,11 +67,10 @@ One bad setting caught after four clips is cheap; caught after forty it is not.
 | The clip freezing or looping after ~3s | Means the beats were dropped. Regenerate with the full block. |
 | The silver hoop moving ears or vanishing | It is in his left ear. It is one of the few identity anchors these prompts carry. |
 
-**One known trade-off, so it is not reported as a fault.** Several clips are lit low —
-evening desk light, a bar, a car at night. A low-key scene overrides the phone-camera
-wording and will render closer to graded cinema than to a phone snapshot. That is expected
-and accepted on those clips. Flag it if it happens in a *daylight* clip, which would mean
-the camera block is being ignored.
+**Every scene in this set is daylight or bright indoor light, deliberately.** A low-key
+scene overrides the phone-camera wording and renders closer to graded cinema than to a
+phone snapshot, which is the opposite of what these are for. If a clip comes back looking
+dim, moody or colour-graded, that is a fault — flag it and retake.
 
 ## Report back
 
@@ -149,7 +148,7 @@ Subject fully absorbed in what he is doing and never turns toward or acknowledge
 *Hook: "printed it out because the pattern only shows up on paper" / old-school-operator beat.*
 
 ```
-@Rodrigo Maxwell He sits at a shared desk with a printed spreadsheet in front of him next to an open laptop, pen in hand, tracing down a column of numbers. Anchors: close-cropped dark hair, the silver hoop, a bone-coloured heavyweight t-shirt. Co-working space, overcast afternoon light through a large window behind him, the window filling the left third of frame reserved for text. Camera held roughly at chest height across the table, small natural sway, no movement. Beats: ~0s his pen traces down the printed column; ~5s he stops, circles one number, glances between paper and laptop screen; ~10s he types something into the laptop with one hand while the pen stays on the paper; ~13s he sits back, tapping the pen twice against the desk.
+@Rodrigo Maxwell He sits at a shared desk with a printed spreadsheet in front of him next to an open laptop, pen in hand, tracing down a column of numbers. Anchors: close-cropped dark hair, the silver hoop, a bone-coloured heavyweight t-shirt. Co-working space, bright afternoon sunlight through a large window behind him, the window filling the left third of frame reserved for text. Camera held roughly at chest height across the table, small natural sway, no movement. Beats: ~0s his pen traces down the printed column; ~5s he stops, circles one number, glances between paper and laptop screen; ~10s he types something into the laptop with one hand while the pen stays on the paper; ~13s he sits back, tapping the pen twice against the desk.
 
 Ultra-realistic vertical 9:16 video that looks like it was filmed by a real person on their phone, not a studio production. No 3D, no cartoon, no VFX, no modern colour grading, no cinematic camera moves, no stabilisation.
 
@@ -175,11 +174,11 @@ Natural skin texture with visible pores and natural tone variation. No studio li
 Subject fully absorbed in what he is doing and never turns toward or acknowledges the camera. Subtle natural breathing, occasional small head movement, natural blinking, slight weight shifts, realistic idle posture.
 ```
 
-### W07 — Floor and coffee table, rainy day
-*Hook: "rainy day, still checking the numbers" / cosy-but-working beat.*
+### W07 — Floor and coffee table, sunny afternoon
+*Hook: "Sunday afternoon, still checking the numbers" / off-hours-working beat.*
 
 ```
-@Rodrigo Maxwell He sits on the floor with his back against a couch, laptop open on a low coffee table in front of him, typing steadily. Anchors: close-cropped dark hair pushed back, the silver hoop, a slate-grey plain hoodie sleeves pushed up. Living room, grey rainy daylight through a window with visible raindrops on the glass, the window filling the right third of frame reserved for text. Camera held low at coffee-table height, resting, slight natural sway. Beats: ~0s steady typing; ~5s he glances toward the window at the rain, then back to the screen; ~10s he stretches one arm overhead briefly, then returns his hand to the keyboard; ~13s he resumes typing, absorbed.
+@Rodrigo Maxwell He sits on the floor with his back against a couch, laptop open on a low coffee table in front of him, typing steadily. Anchors: close-cropped dark hair pushed back, the silver hoop, a slate-grey plain hoodie sleeves pushed up. Living room, bright afternoon sunlight through a window falling in a hard rectangle across the floor beside him, the window filling the right third of frame reserved for text. Camera held low at coffee-table height, resting, slight natural sway. Beats: ~0s steady typing; ~5s he shifts slightly to get the sun off the laptop screen, then keeps typing; ~10s he stretches one arm overhead briefly, then returns his hand to the keyboard; ~13s he resumes typing, absorbed.
 
 Ultra-realistic vertical 9:16 video that looks like it was filmed by a real person on their phone, not a studio production. No 3D, no cartoon, no VFX, no modern colour grading, no cinematic camera moves, no stabilisation.
 
@@ -408,7 +407,7 @@ Subject fully absorbed in what he is doing and never turns toward or acknowledge
 *Hook: "checking the numbers between stops" / in-transit-still-working beat.*
 
 ```
-@Rodrigo Maxwell He sits in a train seat by the window, tapping on his phone, the city passing outside blurred by motion and distance. Anchors: dark stubble, the silver hoop, a bone-coloured heavyweight t-shirt. Daytime, overcast light through the train window, the window and passing scenery filling the left third of frame reserved for text. Camera held at seated eye height across the aisle, small natural sway matching the train's motion. Beats: ~0s he scrolls the phone with his thumb; ~5s he pauses, reading something more closely; ~10s he glances briefly out the window at the passing city, then back to the phone; ~14s he resumes scrolling, settled.
+@Rodrigo Maxwell He sits in a train seat by the window, tapping on his phone, the city passing outside blurred by motion and distance. Anchors: dark stubble, the silver hoop, a bone-coloured heavyweight t-shirt. Bright clear day, sunlight coming through the train window, the window and passing scenery filling the left third of frame reserved for text. Camera held at seated eye height across the aisle, small natural sway matching the train's motion. Beats: ~0s he scrolls the phone with his thumb; ~5s he pauses, reading something more closely; ~10s he glances briefly out the window at the passing city, then back to the phone; ~14s he resumes scrolling, settled.
 
 Ultra-realistic vertical 9:16 video that looks like it was filmed by a real person on their phone, not a studio production. No 3D, no cartoon, no VFX, no modern colour grading, no cinematic camera moves, no stabilisation.
 
@@ -423,7 +422,7 @@ Subject fully absorbed in what he is doing and never turns toward or acknowledge
 *Hook: "five minutes early, catching up on messages" / parked-waiting beat.*
 
 ```
-@Rodrigo Maxwell He sits in the driver's seat of a parked car, engine off, looking at his phone resting on the steering wheel, occasionally glancing up through the windshield. Anchors: close-cropped dark hair pushed back, the silver hoop, a black heavyweight t-shirt. Overcast afternoon, parked on a quiet street, a stretch of plain wall visible through the windshield filling the top third of frame reserved for text. Camera held just outside the driver's window at eye height, static with faint natural sway. Beats: ~0s he reads the phone screen; ~5s he looks up briefly out the windshield at the street; ~10s he sets the phone in the cup holder and rests one hand on the wheel; ~13s he settles back into the seat, waiting.
+@Rodrigo Maxwell He sits in the driver's seat of a parked car, engine off, looking at his phone resting on the steering wheel, occasionally glancing up through the windshield. Anchors: close-cropped dark hair pushed back, the silver hoop, a black heavyweight t-shirt. Bright sunny afternoon, parked on a quiet street, a stretch of plain wall visible through the windshield filling the top third of frame reserved for text. Camera held just outside the driver's window at eye height, static with faint natural sway. Beats: ~0s he reads the phone screen; ~5s he looks up briefly out the windshield at the street; ~10s he sets the phone in the cup holder and rests one hand on the wheel; ~13s he settles back into the seat, waiting.
 
 Ultra-realistic vertical 9:16 video that looks like it was filmed by a real person on their phone, not a studio production. No 3D, no cartoon, no VFX, no modern colour grading, no cinematic camera moves, no stabilisation.
 
@@ -438,7 +437,7 @@ Subject fully absorbed in what he is doing and never turns toward or acknowledge
 *Hook: "waiting for a client who's about to hear the bad news about their links" / tension-lite beat.*
 
 ```
-@Rodrigo Maxwell He stands just outside the entrance of an office building, hands in his jacket pockets, glancing at his watch, weight shifting slightly from foot to foot. Anchors: dark stubble, the silver hoop, a slate-grey unstructured overshirt over a black tee. Cloudy day, a plain section of the building's facade filling the right third of frame reserved for text. Camera held at standing eye height a few feet back, small natural sway. Beats: ~0s he checks his watch; ~5s he looks up the street, then back toward the entrance doors; ~10s he takes one hand out of his pocket to check his phone briefly; ~14s he puts the phone away and settles into stillness, still waiting.
+@Rodrigo Maxwell He stands just outside the entrance of an office building, hands in his jacket pockets, glancing at his watch, weight shifting slightly from foot to foot. Anchors: dark stubble, the silver hoop, a slate-grey unstructured overshirt over a black tee. Bright clear day, a plain section of the building's facade filling the right third of frame reserved for text. Camera held at standing eye height a few feet back, small natural sway. Beats: ~0s he checks his watch; ~5s he looks up the street, then back toward the entrance doors; ~10s he takes one hand out of his pocket to check his phone briefly; ~14s he puts the phone away and settles into stillness, still waiting.
 
 Ultra-realistic vertical 9:16 video that looks like it was filmed by a real person on their phone, not a studio production. No 3D, no cartoon, no VFX, no modern colour grading, no cinematic camera moves, no stabilisation.
 
@@ -464,11 +463,11 @@ Natural skin texture with visible pores and natural tone variation. No studio li
 Subject fully absorbed in what he is doing and never turns toward or acknowledges the camera. Subtle natural breathing, occasional small head movement, natural blinking, slight weight shifts, realistic idle posture.
 ```
 
-### C06 — Rain, hood up, evening
-*Hook: "still walking to the pitch, rain or not" / weather-texture beat.*
+### C06 — Sunlit street, jacket over one shoulder
+*Hook: "between meetings, on foot" / transition beat.*
 
 ```
-@Rodrigo Maxwell He walks along a city street with his jacket hood up, hands in his pockets, rain visibly falling and wet pavement reflecting streetlights ahead of him. Anchors: dark stubble, the silver hoop, a black heavyweight t-shirt under a hooded jacket. Evening, light rain, a stretch of plain shopfront shutter filling the left third of frame reserved for text. Camera held at chest height, walking alongside him at a matched, unhurried pace. Beats: ~0s he walks steadily through the rain; ~5s he glances up briefly at the sky, then back down at the pavement ahead; ~10s he adjusts his hood slightly with one hand; ~14s he continues at the same pace, unresolved.
+@Rodrigo Maxwell He walks along a sunlit city street with a jacket slung over one shoulder, one hand in his pocket, hard shadows falling across the pavement ahead of him. Anchors: dark stubble, the silver hoop, a black heavyweight t-shirt. Bright clear afternoon, strong side light, a stretch of plain shopfront shutter filling the left third of frame reserved for text. Camera held at chest height, walking alongside him at a matched, unhurried pace. Beats: ~0s he walks steadily through the sun; ~5s he shifts the jacket onto his other shoulder without breaking stride; ~10s he squints slightly and glances up the street ahead; ~14s he continues at the same pace, unresolved.
 
 Ultra-realistic vertical 9:16 video that looks like it was filmed by a real person on their phone, not a studio production. No 3D, no cartoon, no VFX, no modern colour grading, no cinematic camera moves, no stabilisation.
 
@@ -498,7 +497,7 @@ Subject fully absorbed in what he is doing and never turns toward or acknowledge
 *Hook: "off the train, straight into the next thing" / momentum-beat.*
 
 ```
-@Rodrigo Maxwell He walks along a train platform after stepping off a train, heading toward a staircase, unhurried but purposeful pace. Anchors: dark stubble, the silver hoop, a black heavyweight t-shirt under an open slate-grey overshirt. Daytime, platform canopy light, a stretch of plain platform wall filling the right third of frame reserved for text. Camera held at chest height, walking alongside him at a matched pace. Beats: ~0s he steps off the train onto the platform; ~5s he checks his phone briefly without slowing; ~10s he puts the phone away and starts up the first few stairs; ~14s he continues climbing the staircase steadily.
+@Rodrigo Maxwell He walks along a train platform after stepping off a train, heading toward a staircase, unhurried but purposeful pace. Anchors: dark stubble, the silver hoop, a black heavyweight t-shirt under an open slate-grey overshirt. Bright clear day, sunlight falling in bands across the platform between the canopy supports, a stretch of plain platform wall filling the right third of frame reserved for text. Camera held at chest height, walking alongside him at a matched pace. Beats: ~0s he steps off the train onto the platform; ~5s he checks his phone briefly without slowing; ~10s he puts the phone away and starts up the first few stairs; ~14s he continues climbing the staircase steadily.
 
 Ultra-realistic vertical 9:16 video that looks like it was filmed by a real person on their phone, not a studio production. No 3D, no cartoon, no VFX, no modern colour grading, no cinematic camera moves, no stabilisation.
 
@@ -524,11 +523,11 @@ Natural skin texture with visible pores and natural tone variation. No studio li
 Subject fully absorbed in what he is doing and never turns toward or acknowledges the camera. Subtle natural breathing, occasional small head movement, natural blinking, slight weight shifts, realistic idle posture.
 ```
 
-### C10 — Evening walk, city lights
+### C10 — Late-afternoon walk home
 *Hook: "the walk home after a day of other people's leaks" / wind-down beat.*
 
 ```
-@Rodrigo Maxwell He walks along a city street in the early evening, hands in his jacket pockets, streetlights and shopfronts coming on around him, brisk but unhurried pace. Anchors: dark stubble, the silver hoop, a slate-grey unstructured overshirt over a black tee. Dusk, streetlights just switching on, a stretch of plain shopfront shutter filling the bottom third of frame reserved for text. Camera held at chest height, walking alongside him at a matched pace. Beats: ~0s he walks steadily, hands in pockets; ~5s he glances up at a streetlight flickering on; ~10s he takes one hand out to check his phone briefly, then puts it away; ~14s he continues walking at the same unhurried pace.
+@Rodrigo Maxwell He walks along a city street in the late afternoon, hands in his jacket pockets, low golden sun coming down the street behind him, brisk but unhurried pace. Anchors: dark stubble, the silver hoop, a slate-grey unstructured overshirt over a black tee. Bright clear late afternoon, long shadows stretching across the pavement, a stretch of plain shopfront shutter filling the bottom third of frame reserved for text. Camera held at chest height, walking alongside him at a matched pace. Beats: ~0s he walks steadily, hands in pockets; ~5s he squints briefly into the low sun as he crosses a gap between buildings; ~10s he takes one hand out to check his phone briefly, then puts it away; ~14s he continues walking at the same unhurried pace.
 
 Ultra-realistic vertical 9:16 video that looks like it was filmed by a real person on their phone, not a studio production. No 3D, no cartoon, no VFX, no modern colour grading, no cinematic camera moves, no stabilisation.
 
@@ -560,7 +559,7 @@ Subject fully absorbed in what he is doing and never turns toward or acknowledge
 *Hook: "still plays like the attribution model owes him a goal" / physical-off-duty beat.*
 
 ```
-@Rodrigo Maxwell He jogs back into position on a small artificial-turf five-a-side pitch after a play, breathing steadily, glancing across the pitch. Anchors: dark stubble, the silver hoop, a plain dark football bib over a grey tee. Evening under floodlights, a stretch of the pitch's perimeter fencing filling the right third of frame reserved for text. Camera held at chest height near the touchline, small natural sway, no repositioning. Beats: ~0s he jogs at a steady pace back into position; ~5s he slows to a walk, hands on his hips briefly; ~10s he calls out and points across the pitch with one arm, no words audible; ~14s he sets off jogging again as play resumes.
+@Rodrigo Maxwell He jogs back into position on a small artificial-turf five-a-side pitch after a play, breathing steadily, glancing across the pitch. Anchors: dark stubble, the silver hoop, a plain dark football bib over a grey tee. Bright clear late afternoon, warm low sun across the pitch, a stretch of the pitch's perimeter fencing filling the right third of frame reserved for text. Camera held at chest height near the touchline, small natural sway, no repositioning. Beats: ~0s he jogs at a steady pace back into position; ~5s he slows to a walk, hands on his hips briefly; ~10s he calls out and points across the pitch with one arm, no words audible; ~14s he sets off jogging again as play resumes.
 
 Ultra-realistic vertical 9:16 video that looks like it was filmed by a real person on their phone, not a studio production. No 3D, no cartoon, no VFX, no modern colour grading, no cinematic camera moves, no stabilisation.
 
@@ -665,7 +664,7 @@ Subject fully absorbed in what he is doing and never turns toward or acknowledge
 *Hook: "stretching before a run, same discipline as the job" / physical-quiet beat.*
 
 ```
-@Rodrigo Maxwell He stands on a park path stretching one leg against a low bench, unhurried, preparing to run. Anchors: close-cropped dark hair, the silver hoop, a plain dark running t-shirt and shorts. Early morning park, soft daylight through trees, a stretch of open grass filling the bottom third of frame reserved for text. Camera held at standing eye height a few feet away, small natural sway. Beats: ~0s he stretches one leg against the bench; ~5s he switches to stretch the other leg; ~10s he rolls both shoulders and shakes out his arms; ~13s he takes a first few steps into a light jog, moving off down the path.
+@Rodrigo Maxwell He stands on a park path stretching one leg against a low bench, unhurried, preparing to run. Anchors: close-cropped dark hair, the silver hoop, a plain dark running t-shirt and shorts. Bright clear early morning in the park, sunlight coming through the trees, a stretch of open grass filling the bottom third of frame reserved for text. Camera held at standing eye height a few feet away, small natural sway. Beats: ~0s he stretches one leg against the bench; ~5s he switches to stretch the other leg; ~10s he rolls both shoulders and shakes out his arms; ~13s he takes a first few steps into a light jog, moving off down the path.
 
 Ultra-realistic vertical 9:16 video that looks like it was filmed by a real person on their phone, not a studio production. No 3D, no cartoon, no VFX, no modern colour grading, no cinematic camera moves, no stabilisation.
 
