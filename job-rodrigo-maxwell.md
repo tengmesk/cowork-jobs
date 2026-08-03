@@ -6,9 +6,12 @@
 > training run.** Generating the 21 coverage shots is unlimited; training may not be. Do
 > not start a training run on your own initiative.
 >
-> **Name the Element exactly `Rodrigo Maxwell`** — no suffix, no version number — so that
-> `@Rodrigo Maxwell` resolves. His 40-clip b-roll job depends on that exact name and cannot
-> run without it.
+> **Name the Element `Rodrigo Maxwell`, then report back the exact name it actually got.**
+> Higgsfield appends a numeric suffix on a name collision, and this has already caught us
+> twice — `Tim Tanner-1` and `Lizzie Larsen-1` are both the real assets while the clean
+> names point at superseded ones. His 40-clip b-roll job attaches the Element by exact
+> name and will silently produce the wrong man if the name is off. Do not assume it saved
+> unsuffixed; check the Elements list and tell us what is there.
 
 
 ---

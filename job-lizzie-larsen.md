@@ -1,5 +1,25 @@
 # Job — build the Lizzie Larsen character
 
+> ## ✅ DONE — 2026-08-03. Do not re-run.
+>
+> | Asset | Value |
+> |---|---|
+> | **Soul** (stills only) | `1e1883a5-56b6-4bfe-8219-8675d3944703` |
+> | **Element** (video) | **`Lizzie Larsen-1`** — `e7091ef8-9c4d-4bbd-90a5-fbee8af1c63b` |
+>
+> Roughly 87 coverage images were generated, curated, and the Soul trained on the keepers.
+>
+> ### Two superseded twins exist on the account. Do not use either.
+>
+> - Soul **`Lizzie Larsen-old`** (`4de496ec-…`) — the pre-respec persona.
+> - Element **`Lizzie Larsen`** (`fdca9528-…`) — a likeness **rejected on IP grounds**.
+>   It holds the clean, obvious name, which makes it the easy mistake. The approved
+>   Element is the one with the `-1` suffix.
+>
+> This is the second time a suffixed Element has been the correct one (`Tim Tanner-1` was
+> the first). **Assume the clean name is wrong until checked.**
+
+
 > **START OVER — regenerate all 21 shots from scratch.**
 >
 > Her look was respecified on 2026-07-30 and the owner has decided to retake the whole

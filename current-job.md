@@ -4,8 +4,8 @@
 standing context that does not change. When told to "refresh", re-fetch this page —
 the CURRENT JOB section will have been replaced.
 
-Last updated: 2026-07-30 — Tim DONE. Lizzie is CURRENT. Both Lizzie's and Rodrigo's b-roll
-jobs are now written and queued; each unlocks the moment its own Element exists.
+Last updated: 2026-08-03 — **Lizzie is DONE**, character and all 30 b-roll clips.
+**Rodrigo is CURRENT and it is time-critical** — see the deadline note below.
 
 ---
 
@@ -37,82 +37,72 @@ be told it is fine. Never call an image spec-compliant if it isn't.
 | **Terry Sterling** | `b45b1df9-ca52-4580-89c3-caa756cfe7a7` | **`@Terry Sterling`** |
 | **Maya Miller** | `f2f47ddc-7308-4470-8e76-6e8c2b2fd6cd` | **`@Maya-Miller-v2`** |
 | **Tim Tanner** | `ab2e0383-bad0-418f-9a85-a1c0a0998c9a` | **`@Tim Tanner-1`** |
+| **Lizzie Larsen** | `1e1883a5-56b6-4bfe-8219-8675d3944703` | **`@Lizzie Larsen-1`** |
 
 Also live: **`@Shoe-Dog-Cover`** — a prop Element of the Shoe Dog book cover.
 
 Soul never works with video. Seedance 2.0 and Kling 3.0 take the Element.
 
-**Duplicate Elements exist and the right one is not obvious** — there are older
-`Maya Miller`, `Maya-Miller-—-element`, `Terry-Sterling-—-element` and `Tim Tanner`
-Elements on the account. **Use only the three @names in the table above.** Do not create
-any more Elements for these three characters.
+**Duplicate Elements exist and the CLEAN NAME IS OFTEN THE WRONG ONE.** The account holds
+older `Maya Miller`, `Maya-Miller-—-element`, `Terry-Sterling-—-element`, `Tim Tanner` and
+`Lizzie Larsen` Elements. Twice now the correct Element has been the suffixed one —
+`Tim Tanner-1`, and `Lizzie Larsen-1`, whose unsuffixed twin is a likeness **rejected on
+IP grounds**. **Use only the four @names in the table above, exactly as written**, and do
+not create any more Elements for these four characters.
 
 ---
 
 # CURRENT JOB
 
-## Build Lizzie Larsen
+## Build Rodrigo Maxwell — and start today
 
-**Her brief:** https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-lizzie-larsen.md
+**His brief:** https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-rodrigo-maxwell.md
 
-> ### Her look was respecified on 2026-07-30 — read this first
+> ### Why this jumped the queue
 >
-> If you fetched her brief before 2026-07-30, **discard it.** The old spec described
-> dark-blonde hair with visibly grown-out roots, faint freckles and deliberately unstyled
-> clothes. That is superseded.
+> **The Unlimited passes expire 2026-08-04 — tomorrow.** Rodrigo's build is 21 coverage
+> shots at 3–4 variants each, so **63–84 image generations**. That is the only outstanding
+> job big enough for the free window to matter. The Vox style sheet is three images and
+> costs almost nothing whenever it runs, so it has moved behind him.
 >
-> She is now **bright Scandi-blonde, sleek shoulder-length, polished and premium-styled** —
-> high-end Scandinavian minimalist. Use only the identity string in the brief.
+> If the passes lapse before the batch is finished, **stop and report** rather than
+> spending credits.
 
-### Before you start generating
+### Same route as Lizzie, which just worked
 
-**Report the Soul training cost and wait for the owner's confirmation before starting the
-training run.** Generating the coverage images is unlimited; training may not be. Do not
-start a training run on your own initiative.
+He is fully synthetic — no source photo — so the identity string in his brief is the only
+source of his face.
 
-### What is different about Lizzie versus Maya and Tim
+1. **Generate the 21 coverage shots cold, no Element attached.**
+2. **3–4 variants per shot.** Cold generation drifts; that is the whole risk.
+3. **Curate 22–26 keepers** on one question: *is every one of these the same man?*
+4. **Report the Soul training cost and wait for the owner's go-ahead** before training.
+5. **Build the Element from the keepers** afterwards.
 
-**She is fully synthetic — there is no source photo.** Maya had a headshot, so her Element
-came first and seeded her training batch. Lizzie has nothing to seed from; the written
-identity string *is* the source.
+### The naming trap — this has now bitten twice
 
-1. **Generate the 21 coverage shots cold, with no Element attached.** There is nothing to
-   attach yet — this batch is what creates the character.
-2. **Budget 3–4 variants per shot, not 2–3.** With nothing anchoring the face, drift across
-   the batch is the main failure mode.
-3. **Curate for internal consistency.** The question is not "is this like the source photo"
-   — there isn't one. It is **"is every one of these the same woman?"**
+Higgsfield appends a numeric suffix when an Element name collides with an existing one.
+Both `Tim Tanner-1` and `Lizzie Larsen-1` ended up as the real asset while the clean name
+pointed at something superseded.
 
-Then train the Soul on 22–26 face-dominant keepers, and build the Element from the keepers
-afterwards. **Name the Element exactly `Lizzie Larsen`** — no suffix, so `@Lizzie Larsen`
-works.
+**Name his Element `Rodrigo Maxwell`, then report back the exact name it actually got.**
+Do not assume it saved unsuffixed. His 40-clip b-roll job attaches the Element by exact
+name and will silently produce the wrong man if the name is off.
 
-### The trap specific to Lizzie
+### Watch for, specific to him
 
-**Her training images stay clean, evenly lit and neutral — even though her content is shot
-to look like a phone snapshot.** Her subject is polished and her camera is not, which makes
-it tempting to train her on gritty handheld images. Do not. Phone realism is applied later,
-at generation time. Inverting this bakes grain into her identity permanently.
-
-**And the brows.** Full taupe-brown, brushed up and out, **noticeably darker than her
-hair** — the strongest feature of the reference and the one most likely to drift back
-toward pale blonde. **Reject any frame where the brows have gone light.**
-
-**And the skin, which is subtle.** Her look calls for "flawless glowing skin" while the
-house rule is unretouched skin with visible pores. These are not opposed:
-
-- **Glowing** is a *lighting* quality — dewy, healthy, light catching the cheekbones.
-- **Retouched** is an *absence of texture* — no pores, no fine lines.
-
-Ask for both. **Reject any frame where the skin has gone poreless**, however flattering it
-looks — the Soul would learn a plastic face permanently.
+- **The silver hoop is in his LEFT ear.** It is one of his few hard identity anchors and
+  it swaps ears or vanishes when the model drifts. Reject those frames.
+- **Training images stay clean, evenly lit and neutral** even though his content will be
+  phone-style. Phone realism is applied later, at generation time.
+- **Reject poreless skin**, however flattering.
 
 ### Report when done
 
-1. The **Soul ID** and the **Element ID**
-2. How many shots you generated, how many you kept, what you rejected them for
-3. Whether the kept set genuinely looks like **one consistent woman** — be blunt
-4. Whether the skin came out unretouched or still smoothed
+1. The **Soul ID**, the **Element ID**, and **the exact Element name**
+2. How many shots generated, how many kept, what you rejected them for
+3. Whether the kept set is unmistakably **one consistent man** — be blunt
+4. Whether the hoop stayed in his left ear across the set
 5. Anything that showed a credit cost rather than Unlimited
 
 Then stop and wait.
@@ -121,24 +111,16 @@ Then stop and wait.
 
 ## QUEUED — not now
 
-1. **Lizzie's b-roll — 30 clips** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-lizzie-broll.md
-   Seedance 2.0, **14s each, 9:16, 1080p, silent.** 7 poolside, 13 in her apartment, 10
-   around Miami. **Blocked until her Element exists** and the owner has approved her
-   keepers — it attaches `@Lizzie Larsen`, so it cannot start a moment earlier. The job
-   asks for three pilot clips first, then a stop for review.
+1. **Rodrigo's b-roll — 40 clips** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-rodrigo-broll.md
+   **Blocked until his Element exists.** 10 desk/analytics, 10 coworking, 10 city, 10
+   off-duty. Four pilot clips first, then a stop for review.
+   **Note:** Lizzie's set was run image-first — a start frame per clip, then animated —
+   and that worked better than prompt-only. Plan his the same way.
 2. **Vox collage style sheet** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-vox-style-sheet.md
-   **One image, not a video.** Three variants of a reusable style anchor for the faceless
-   explainer channel. Cheap, fast, and it unblocks a whole content format — do this
-   straight after Lizzie if the owner says so. Uses **Nano Banana Pro at 9:16**, not Omni.
-3. **Rodrigo Maxwell — the character** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-rodrigo-maxwell.md
-   Same synthetic route as Lizzie: 21 shots cold, no Element, 3–4 variants each, curate to
-   22–26 keepers, then train. **Name his Element exactly `Rodrigo Maxwell`.** Do not start
-   until Lizzie is reported and approved.
-4. **Rodrigo's b-roll — 40 clips** — https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-rodrigo-broll.md
-   Seedance 2.0, **14s each, 9:16, 1080p, silent.** 10 at the desk with analytics, 10
-   coworking/studio, 10 city/transit, 10 off-duty. **Blocked until his Element exists.**
-   Four pilot clips first, then a stop for review.
-5. **Terry: three daylight start frames**, regenerated with hardened skin and background
+   **One image, not a video.** Three variants of a reusable style anchor. Only three
+   generations, so it is cheap with or without the passes — which is why it now sits
+   behind Rodrigo.
+3. **Terry: three daylight start frames**, regenerated with hardened skin and background
    wording.
 
 ### Coming after the style sheet is approved — do not start it yet
@@ -154,3 +136,15 @@ It is blocked on two things that are not yours to do:
 - the **voiceover**, which sets the exact beat timings
 
 Do not begin it until a job page appears for it here.
+
+---
+
+## DONE — do not re-run
+
+- **Terry Sterling**, **Maya Miller**, **Tim Tanner** — Souls and Elements built.
+- **Lizzie Larsen** — Soul `1e1883a5-…`, Element **`@Lizzie Larsen-1`**, ~87 coverage
+  images. [Job page](https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-lizzie-larsen.md)
+- **Lizzie's 30 b-roll clips** — all completed 2026-08-03 on **Kling 3.0 at 10s**, image-first
+  (start frame per clip, then animated), 9:16, silent. Ran differently from the written
+  spec, which said Seedance 2.0 at 14s; the differences are recorded on the
+  [job page](https://raw.githubusercontent.com/tengmesk/cowork-jobs/main/job-lizzie-broll.md).
