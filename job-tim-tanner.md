@@ -1,5 +1,19 @@
 # Job — build the Tim Tanner character
 
+> ## ✅ DONE. Do not re-run.
+>
+> | Asset | Value |
+> |---|---|
+> | **Soul** (stills only) | `ab2e0383-bad0-418f-9a85-a1c0a0998c9a` |
+> | **Element** (video) | **`@Tim Tanner-1`** — note the suffix |
+>
+> The unsuffixed Element `Tim Tanner` is an older, superseded one. Use `@Tim Tanner-1`.
+>
+> The model-assignment table further down is also superseded — the house default is now
+> **Nano Banana 2 for everything**, single-model, because Nano Banana Pro is too slow for
+> batches this size. Kept here only as a record of how Tim was actually built.
+
+
 ---
 name: Tim Tanner — Higgsfield Prompt Pack
 description: Character-creation job (paste-ready, no file access needed) + 40 b-roll prompts for the trained Soul/Element

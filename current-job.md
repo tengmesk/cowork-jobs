@@ -23,6 +23,11 @@ owner's go-ahead before starting a training run.**
 **You cannot reach the local filesystem.** Steps needing a file are marked **[YOU]** —
 click Upload to open the native dialog and let the human pick the file.
 
+**Image model — house default.** Use **Nano Banana 2 at 2K** for everything, and use one
+model per character set. Nano Banana Pro is too slow for batches of this size, and mixing
+models across a set averages several faces together, which is the exact drift we fight on
+characters with no source photo.
+
 **Attaching a character.** In the web app you attach a reference by typing **`@Name`** in
 the prompt box. The `<<<uuid>>>` form is API syntax and does nothing in the browser. The
 name must match the Element name **exactly**.

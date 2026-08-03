@@ -55,7 +55,7 @@ generate, move to the next. Nothing here refers back to another file.
 
 ### Job parameters
 
-- **Model:** assigned per shot group — see **Generation settings** below. 2K, web app.
+- **Model:** **Nano Banana 2, 2K**, for all 21 shots. Web app. Do not use Nano Banana Pro — too slow for this batch.
 - **No Element, no reference image attached to any of these 21.** Rodrigo is
   fully synthetic — the identity string below is the only source of his face.
   Do not attach anything.
@@ -80,22 +80,21 @@ generate, move to the next. Nothing here refers back to another file.
 
 ## Generation settings
 
-### Which model for which shot — do not scatter them
+### Model — one model for all 21 shots
 
-Three models are used deliberately, assigned **by shot group**, not at random. Each model
-renders faces slightly differently, so scattering them across the set would average three
-faces together — which is exactly the drift we are trying to avoid on a character with no
-source photo.
+**Nano Banana 2, 2K, for every shot.** Not Nano Banana Pro — it is too slow for a batch
+this size, and at 3–4 variants across 21 shots that is 63–84 generations to get through
+before the passes expire.
 
-| Shots | Model | Why |
-|---|---|---|
-| **1–8, plus 9 and 13** (10 shots) | **Nano Banana Pro, 2K** | The identity core — front, three-quarters, profiles, chin up/down, hair back. These define the face. Best model, one model, no mixing. |
-| **11, 12, 14, 20, 21** (5 shots) | **GPT Image 2, 2K** | Lighting variants and the wardrobe alternates. Face is already established by the group above; these test that it survives different light and clothes. |
-| **10, 15, 16, 17, 18, 19** (6 shots) | **Nano Banana 2, 2K** | Body, proportion and hands. Framing is wider, so per-image face detail matters least here. |
+**Do not mix models.** Each model renders faces slightly differently, so scattering them
+across the set averages several faces together — which is precisely the drift we are
+fighting on a character with no source photo. If a shot comes out inconsistent with the
+others, **regenerate it on Nano Banana 2**; do not switch model to get a result you like
+better.
 
-If any shot from the Nano Banana Pro group comes out inconsistent with the others,
-**regenerate it on Nano Banana Pro** — do not substitute a different model to get a
-result you like better. The identity group must stay single-model.
+Single-model is the ideal here, not a compromise. An earlier version of this brief split
+the set across three models to use the strongest one on the identity core; one model
+throughout is better for consistency as well as faster.
 
 ### Everything else
 

@@ -10,7 +10,7 @@ until this exists and has been approved.
 
 | Control | Set to |
 |---|---|
-| Model | **Nano Banana Pro (2K)** — or GPT Image 2 (2K) if Nano Banana Pro is unavailable |
+| Model | **Nano Banana 2 (2K)** — not Nano Banana Pro, which is too slow |
 | Aspect | **9:16 vertical** |
 | Unlimited mode | **On** |
 

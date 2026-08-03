@@ -36,6 +36,9 @@ say so.
 
 ## How to run each clip
 
+0. **Generate a start frame first.** Lizzie's set was run image-first — a still per clip,
+   then animated — and it held up better than prompt-only. Use **Nano Banana 2, 2K**,
+   9:16, with `@Rodrigo Maxwell` attached, then animate that frame.
 1. Type **`@Rodrigo Maxwell`** in the prompt box and pick the Element from the dropdown.
 2. Paste the block for that clip. Every block below is complete and paste-ready — the
    realism, camera, skin and ambient paragraphs are already appended. Do not add anything,
