@@ -82,15 +82,22 @@ These are **4-second selfie reaction clips**, silent, 9:16, 1080p — the openin
 videos whose remainder is a real product demo. They are short on purpose: the synthetic
 face carries two or three seconds and then the edit cuts to real screen capture.
 
+**Eleven different expressions** are spread across each set — eyes wide, both brows
+raised, one brow up sceptical, hand over the mouth, peeping through the fingers, jaw
+slack, recoil, squint-and-lean-in, double-take, delighted disbelief, hands to the head.
+Each page has an index so you can find them by expression. Fifty identical wide-eyed faces
+would be one asset used fifty times.
+
 **Two rules that decide whether these work at all**, both explained on the job pages:
 
-- **Never add the words "shock", "shocked" or "surprised".** They are absent by design.
-  A model asked for a shocked face produces a rubbery, over-acted expression that reads as
-  AI instantly. The prompts describe interrupted physical actions instead.
+- **Generate each prompt exactly as written; do not simplify the expression.** Every one
+  names an expression *and* describes its physical form. The label alone lets the model
+  fall back on a rubbery stock face; the physical description is what steers it.
 - **No speech.** Lip-sync is the biggest AI tell there is. Reject any clip where the mouth
   forms words.
 
-Each page asks for **five pilot clips first, then a stop for review.**
+Each page asks for **five pilot clips first, then a stop for review** — and the five are
+spread across five different expressions on purpose.
 
 ---
 
